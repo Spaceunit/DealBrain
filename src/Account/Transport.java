@@ -9,6 +9,18 @@ public class Transport {
     private String model;
     private int[] typeCab;
     //This array consist of some numbers, that means certain type of car's cab
+    public String getCapacityCargo(){
+        return capacityCargo;
+    }
+    public boolean getAccessTransit(){
+        return accessTransit;
+    }
+    public int getCapacityCargo(){
+        return capacityCargo;
+    }
+    public void setCapacityCargo(int capacityCargo){
+        this.capacityCargo = capacityCargo;
+    }
 
 }
 
