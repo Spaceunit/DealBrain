@@ -12,6 +12,9 @@ public class Transport {
     public int getCapacityCargo(){
         return capacityCargo;
     }
+    public String model(){
+        return model;
+    }
     public boolean getAccessTransit(){
         return accessTransit;
     }
@@ -21,6 +24,5 @@ public class Transport {
     public void setCapacityCargo(int capacityCargo){
         this.capacityCargo = capacityCargo;
     }
-
 }
 
