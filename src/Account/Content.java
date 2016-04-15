@@ -3,7 +3,7 @@ package Account;
 /**
  * Created by Yaroslav on 15.04.2016.
  */
-abstract public class Content {
+public class Content {
 
     private long textID;
     private long attachmentID;
