@@ -5,6 +5,8 @@ package Account;
  */
 public class Transport {
     private int capacityCargo;
+    private boolean accessTransit;
+    private String model;
 
 }
 
