@@ -5,6 +5,16 @@ package Account;
  */
 public class DialogList {
     private int amountdialog ;
+    public setAmountDialog( ){
 
+    };
+    public getAmountDialog( ){
 
+    };
+    public addDialog( ){
+
+    };
+    public removeDialog(){
+
+    };
 }
