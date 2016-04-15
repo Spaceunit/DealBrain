@@ -6,8 +6,8 @@ package Account;
 public class General_ID {
     private long id;
 
-    public void SetID(long id ) {
+    public void setID(long id ) {
         this.id = id;
     }
-    public long GetID() {return id;}
+    public long getID() {return id;}
 }
