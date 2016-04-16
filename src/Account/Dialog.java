@@ -22,10 +22,10 @@ public class Dialog {
     public int getOwner() {
         return owner;
     }
-    public addMembers(){
+    public void addMembers(){
 
     }
-    public removeMembers(){
+    public void removeMembers(){
 
     }
 }

@@ -10,10 +10,12 @@ public class Customer {
     private boolean signatureDeal;
 
     public void setAmountGoods(int amountGoods) {
+
         this.amountGoods = amountGoods;
     }
 
     public int getAmountGoods() {
+
         return amountGoods;
     }
 
@@ -22,6 +24,7 @@ public class Customer {
     }
 
     public boolean isSignatureDeal() {
+
         return signatureDeal;
     }
 

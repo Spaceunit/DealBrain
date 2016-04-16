@@ -24,5 +24,9 @@ public class Transport {
     public void setCapacityCargo(int capacityCargo){
         this.capacityCargo = capacityCargo;
     }
+    public void setAccessTransit(boolean accessTransit) {
+        this.accessTransit = accessTransit;
+    }
+
 }
 

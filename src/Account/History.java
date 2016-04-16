@@ -5,6 +5,11 @@ package Account;
  */
 public class History {
 
-    public void ClearHistory() {}
-    public void RemainTODB() {}
+
+    public void ClearHistory() {
+
+    }
+    public void RemainTODB() {
+
+    }
 }
