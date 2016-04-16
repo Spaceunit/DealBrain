@@ -18,9 +18,6 @@ public class Transport {
     public boolean getAccessTransit(){
         return accessTransit;
     }
-    public int getCapacityCargo(){
-        return capacityCargo;
-    }
     public void setCapacityCargo(int capacityCargo){
         this.capacityCargo = capacityCargo;
     }
