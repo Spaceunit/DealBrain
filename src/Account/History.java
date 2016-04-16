@@ -5,6 +5,7 @@ package Account;
  */
 public class History {
 
+
     public void ClearHistory() {
 
     }
