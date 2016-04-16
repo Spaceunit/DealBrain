@@ -4,13 +4,13 @@ package Path;
  * Created by User on 4/16/2016.
  */
 public class Location {
-    private int coordinates;
-    private int radiusofreach;
+    private double coordinates;
+    private int radiusOfReach;
 
-    public int getCoordinates(){
+    public double getCoordinates(){
         return coordinates;
     }
-    public int getRadiusofreach(){
-        return radiusofreach;
+    public int getRadiusOfReach(){
+        return radiusOfReach;
     }
 }
