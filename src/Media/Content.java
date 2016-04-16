@@ -1,4 +1,4 @@
-package Account;
+package Media;
 
 /**
  * Created by Yaroslav on 15.04.2016.

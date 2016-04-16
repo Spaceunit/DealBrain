@@ -1,4 +1,4 @@
-package Correspondence;
+package Media;
 
 /**
  * Created by Misha on 15.04.2016.
