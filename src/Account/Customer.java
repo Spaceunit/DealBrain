@@ -24,7 +24,7 @@ public class Customer {
     }
 
     public boolean isSignatureDeal() {
-        ]
+
         return signatureDeal;
     }
 

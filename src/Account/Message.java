@@ -8,11 +8,11 @@ public class Message {
     private boolean remove;
     private boolean readmessage;
 
-    public void AddMessage(){
+    public boolean AddMessage(){
     return add;
     }
 
-    public void RemoveMessage(){
+    public boolean RemoveMessage(){
     return remove;
     }
     public void response(){
