@@ -5,13 +5,9 @@ The user can act as a buyer, supplier or carrier.
 Buyer can:
 
   *Choose suitable product and carrier.
-  
   *Choose suitable payment method.
-  
   *Add supplier or product to favorites.
-  
   *Make regular purchases.
-  
   *Give feedbacks and use rate system to give marks.
   
 Supplier can:
