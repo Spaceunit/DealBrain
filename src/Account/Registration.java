@@ -6,6 +6,7 @@ package Account;
 public class Registration {
     private String name;
     private String surname;
+    private String patronimyc;
     private String email;
     private int id;
 
@@ -32,6 +33,9 @@ public class Registration {
     public String getSurname() {
         return surname;
     }
+
+    public String getPatronimyc() { return patronimyc;}
+    public void setPatronimyc(String patronimyc) {this.patronimyc = patronimyc;}
 
     public void setEmail(String email) {
         this.email = email;
