@@ -1,4 +1,4 @@
-package Path;
+package Dislocation;
 
 /**
  * Created by oleksiypolshchak on 4/15/16.
