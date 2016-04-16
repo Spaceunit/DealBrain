@@ -1,4 +1,4 @@
-package Account;
+package Role;
 
 /**
  * Created by User on 4/15/2016.
@@ -10,12 +10,15 @@ public class Transport {
     private int[] typeCab;
     //This array consist of some numbers, that means certain type of car's cab
     public int getCapacityCargo(){
+
         return capacityCargo;
     }
     public String model(){
+
         return model;
     }
-    public boolean getAccessTransit(){
+    public boolean getAccessTransit()
+    {
         return accessTransit;
     }
     public void setCapacityCargo(int capacityCargo){

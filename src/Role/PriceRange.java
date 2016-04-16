@@ -1,4 +1,4 @@
-package Account;
+package Role;
 
 /**
 <<<<<<< HEAD
@@ -20,6 +20,6 @@ public class PriceRange {
         this.maxPrice = maxPrice;
     }
     public void setMinPrice(int minPrice){
-        return minPrice;
+        this.minPrice = minPrice;
     }
 }
