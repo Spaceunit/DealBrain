@@ -8,4 +8,18 @@ package Account;
 >>>>>>> origin/master
  */
 public class PriceRange {
+    private int maxPrice;
+    private int minPrice;
+    public int getMaxPrice(){
+        return maxPrice;
+    }
+    public int getMinPrice(){
+        return minPrice;
+    }
+    public void setMaxPrice(int maxPrice){
+        this.maxPrice = maxPrice;
+    }
+    public void setMinPrice(int minPrice){
+        return minPrice;
+    }
 }
