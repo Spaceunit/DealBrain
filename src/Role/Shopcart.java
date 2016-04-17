@@ -1,10 +1,13 @@
 package Role;
 
+import java.util.ArrayList;
+
 /**
  * Created by lenovo Nazar on 16.04.2016.
  */
 public class Shopcart {
-
+    private List<Product> orders = new ArrayList<Product>();
+    private List
     public double price;
     public double deliveryPrice;
     public double deliveryCompany;
