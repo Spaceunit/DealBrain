@@ -3,7 +3,7 @@ package Role;
 /**
  * Created by lenovo on 15.04.2016.
  */
-public class Product {
+public class Product extends Subject{
 
     private String typeProduct;
     private int amountProduct;
