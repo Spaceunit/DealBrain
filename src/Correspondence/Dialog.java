@@ -9,21 +9,22 @@ public class Dialog {
     private ID membersID = new ID();
     private ID owner = new ID();
 
-    public void setMembers(int members) {
-        this.membersID = members;
+    public void setMembersID(ID membersID) {
+        this.membersID = membersID;
     }
 
-    public int getMembers() {
-        return membersID;
-    }
-
-    public void setOwner(int owner) {
+    public void setOwner(ID owner) {
         this.owner = owner;
     }
 
-    public int getOwner() {
+    public ID getMembersID() {
+        return membersID;
+    }
+
+    public ID getOwner() {
         return owner;
     }
+
     public void addMembers(){
 
     }
