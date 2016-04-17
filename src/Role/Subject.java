@@ -1,4 +1,6 @@
-package Account;
+package Role;
+
+import Account.*;
 
 /**
  * Created by oleksiypolshchak on 4/17/16.
