@@ -7,6 +7,11 @@ import java.util.ArrayList;
  */
 public class Carrier  {
 
-    public  ArrayList<String> transports = new ArrayList<String>();
+
+
+    public  ArrayList<Transport> transports = new ArrayList<Transport>();
+
+
+
 
 }
