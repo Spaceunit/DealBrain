@@ -3,7 +3,7 @@ package Dislocation;
 /**
  * Created by User on 4/16/2016.
  */
-public class Location {
+public class Location extends Point {
     private double coordinates;
     private int radiusOfReach;
 
