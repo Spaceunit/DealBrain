@@ -11,6 +11,7 @@ public class Account {
     private int AccountFotoID;
     private Data info = new Data();
     private SFile serFile = new SFile("userdata","json","./json");
+    
 
     /*public void setData(int data) {
         Data = data;
