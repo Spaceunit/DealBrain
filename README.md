@@ -25,6 +25,8 @@ The user can act as a buyer, supplier or carrier.
 ##UML Class diagram
 ![uml_cd](https://cloud.githubusercontent.com/assets/14862632/14589122/2a2703d6-04e3-11e6-8f0d-c3d5b9873523.png)
 
+
+![corsac_big_logo_4k](https://cloud.githubusercontent.com/assets/14862632/14589192/a379100c-04e4-11e6-863a-5d44b3473ce6.png)
 ##CorsacTeam members` list
 * Oleksiy Polshchak
 * Volodymyr Kozyk
