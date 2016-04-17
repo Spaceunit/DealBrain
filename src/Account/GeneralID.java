@@ -1,7 +1,7 @@
 package Account;
 
 /**
- * Created by Misha on 16.04.2016.
+ * Created by Rak on 16.04.2016.
  */
 public class GeneralID {
     public int id;
