@@ -10,7 +10,7 @@ public class AData implements Serializable {
     private String surname = "Surname";
     private String patronimyc = "Patronymic";
 
-    public Data(String name, String surname, String patronimyc) {
+    public AData(String name, String surname, String patronimyc) {
         this.name = name;
         this.surname = surname;
         this.patronimyc = patronimyc;
