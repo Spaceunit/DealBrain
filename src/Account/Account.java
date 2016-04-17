@@ -1,5 +1,6 @@
 package Account;
 
+import Correspondence.Penpal;
 import Media.SFile;
 
 import java.io.*;
@@ -11,7 +12,7 @@ public class Account {
     private int AccountFotoID;
     private Data info = new Data();
     private SFile serFile = new SFile("userdata","json","./json");
-    
+    private Penpal penpal = new Penpal();
 
     /*public void setData(int data) {
         Data = data;
