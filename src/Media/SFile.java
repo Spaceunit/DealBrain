@@ -38,6 +38,7 @@ public class SFile {
     public String getType() {
         return type;
     }
+
     public String getFullpath() {
         return toString(path+name+"."+type);
     }
