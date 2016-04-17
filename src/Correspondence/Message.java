@@ -8,6 +8,10 @@ public class Message {
     private boolean remove;
     private boolean readmessage;
 
+    public void setReadmessage(boolean readmessage) {
+        this.readmessage = readmessage;
+    }
+
     public boolean AddMessage(){
     return add;
     }
@@ -15,7 +19,7 @@ public class Message {
     public boolean RemoveMessage(){
     return remove;
     }
-    public void response(){
+    public void response() {
 
     }
 }

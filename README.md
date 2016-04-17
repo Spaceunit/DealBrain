@@ -21,3 +21,6 @@ The user can act as a buyer, supplier or carrier.
 
 **Carrier can**:
 * Transport, haul, deliver orders.
+
+##UML Class diagram
+![uml_cd](https://cloud.githubusercontent.com/assets/14862632/14589122/2a2703d6-04e3-11e6-8f0d-c3d5b9873523.png)

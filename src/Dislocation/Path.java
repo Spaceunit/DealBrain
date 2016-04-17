@@ -6,6 +6,7 @@ package Dislocation;
 public class Path extends Location {
     private int amountLocation;
     private double distance;
+    private Point point = new Point();
     private int approximateTime;
 
     public double getDistance() {

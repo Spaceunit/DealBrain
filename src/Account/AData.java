@@ -3,9 +3,9 @@ package Account;
 import java.io.Serializable;
 
 /**
- * Created by oleksiypolshchak on 4/16/16.
+ * Created by oleksiypolshchak on 4/17/16.
  */
-public class Data implements Serializable {
+public class AData implements Serializable {
     private String name = "Name";
     private String surname = "Surname";
     private String patronimyc = "Patronymic";
@@ -41,3 +41,4 @@ public class Data implements Serializable {
 
 
 }
+

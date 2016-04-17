@@ -1,5 +1,6 @@
 package Account;
 
+import Correspondence.Penpal;
 import Media.SFile;
 
 import java.io.*;
@@ -9,17 +10,17 @@ import java.io.*;
  */
 public class Account {
     private int AccountFotoID;
-    private Data info = new Data();
+    private AData info = new AData();
     private SFile serFile = new SFile("userdata","json","./json");
-    
+    private Penpal penpal = new Penpal();
 
-    /*public void setData(int data) {
-        Data = data;
-    }*/
+    public void setInfo(AData info) {
+        this.info = info;
+    }
 
-    /*public int getData() {
-        return Data;
-    }*/
+    public void setPenpal(Penpal penpal) {
+        this.penpal = penpal;
+    }
 
     public void setAccountFotoID(int accountFotoID) {
         AccountFotoID = accountFotoID;
@@ -44,7 +45,7 @@ public class Account {
         try {
             FileInputStream fileIn = new FileInputStream(serFile.getFullpath());
             ObjectInputStream in = new ObjectInputStream(fileIn);
-            info = (Data) in.readObject();
+            info = (AData) in.readObject();
             in.close();
             fileIn.close();
         } catch (IOException i) {

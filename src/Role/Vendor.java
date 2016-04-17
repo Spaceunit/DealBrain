@@ -3,16 +3,19 @@ package Role;
 /**
  * Created by lenovo Nazar on 15.04.2016.
  */
-public class Vendor {
+public class Vendor extends Role{
 
-    String [] products;
+    String [] all_products;
     private int index_numb;
 
+    private PriceRange pricerange = new PriceRange();
+    private Product product = new Product();
+
     public String[] getProducts() {
-        return products;
+        return all_products;
     }
 
     public void setProducts(String product , int index) {
-        this.products[index] = product;
+        this.all_products[index] = product;
     }
 }

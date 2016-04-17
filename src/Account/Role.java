@@ -1,5 +1,6 @@
 package Account;
 
-public class Role {
+abstract public class Role {
+    Pricerange pricebracket = new Pricerange();
 
 }
