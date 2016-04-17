@@ -5,5 +5,5 @@ package Account;
  */
 public class Session {
     private String device = "devicename";
-
+    private String ip     =  "0.0.0.0";
 }
