@@ -6,6 +6,7 @@ package Dislocation;
 public class Point {
     private int arrivalTime;
     private int departureYime;
+    private int []pos;
 
     public int getArrivalTime() {
         return arrivalTime;
@@ -19,5 +20,13 @@ public class Point {
 
     public void setDepartureYime(int departureYime) {
         this.departureYime = departureYime;
+    }
+
+    public int[] getPos() {
+        return pos;
+    }
+
+    public void setPos(int[] pos) {
+        this.pos = pos;
     }
 }
