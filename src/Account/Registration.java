@@ -7,6 +7,7 @@ public class Registration {
     private String name;
     private String surname;
     private String patronimyc;
+    private String phone;
     private String email;
     private int id;
 
@@ -35,6 +36,7 @@ public class Registration {
     }
 
     public String getPatronimyc() { return patronimyc;}
+
     public void setPatronimyc(String patronimyc) {this.patronimyc = patronimyc;}
 
     public void setEmail(String email) {
@@ -43,5 +45,13 @@ public class Registration {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getPhone() {
+        return phone;
     }
 }
