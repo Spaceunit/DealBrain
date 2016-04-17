@@ -15,7 +15,7 @@ public class Message {
     public boolean RemoveMessage(){
     return remove;
     }
-    public void response(){
+    public void response() {
 
     }
 }
